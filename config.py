@@ -30,9 +30,9 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Devilservers💞
+    START_TXT = """<b> 𝑯𝒆𝒍𝒍𝒐 {} 👋,
+𝑻ʜɪ𝒔 𝑰𝒔 𝑨ɴ 𝑨ᴅᴠᴀɴᴄᴇᴅ 𝑨ɴᴅ 𝒀ᴇᴛ 𝑷ᴏᴡᴇʀꜰᴜʟ 𝑹ᴇɴᴀᴍᴇ 𝑩ᴏᴛ
+𝑻ʜɪ𝒔 𝑩ᴏᴛ 𝑾ᴀ𝒔 𝑪ʀᴇᴀᴛᴇᴅ 𝑩ʏ : @𝑫𝒆𝒗𝒊𝒍𝒔𝒆𝒓𝒗𝒆𝒓𝒔💞
 """
 
     ABOUT_TXT = """<b>┏━━━━━━━━━━━━━━━━⍟
