@@ -26,7 +26,7 @@ async def forces_sub(client, message):
             InlineKeyboardButton(text="📢 Join Update Channel 📢", url=f"https://t.me/{Config.FORCE_SUB}")
         ],
         [
-            InlineKeyboardButton(text="❤️ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 ❤️", url="https://t.me/Its_Tartaglia_Childe")
+            InlineKeyboardButton(text="❤️ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 ❤️", url="https://t.me/DevilServers")
         ]
     ]
     text = "**Sᴏʀʀy Dᴜᴅᴇ Yᴏᴜ'ʀᴇ Nᴏᴛ Jᴏɪɴᴇᴅ My Cʜᴀɴɴᴇʟ 😐. Sᴏ Pʟᴇᴀꜱᴇ Jᴏɪɴ Oᴜʀ Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Tᴏ Cᴄᴏɴᴛɪɴᴜᴇ**"
