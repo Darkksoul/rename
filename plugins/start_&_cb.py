@@ -20,11 +20,11 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            'Update Channel', url='https://t.me/DevilServers'),
+            '✨𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍✨', url='https://t.me/DevilServers'),
         InlineKeyboardButton(
-            'Movie Group​', url='https://t.me/DevilMWorld')
+            '✨𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑✨​', url='https://t.me/DevilMWorld')
     ], [
-        InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('🔥𝑨𝒃𝒐𝒖𝒕🔥', callback_data='about'),
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)
@@ -63,11 +63,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    'Update Channel', url='https://t.me/DevilServers'),
+                    '✨𝑼𝒑𝒅𝒂𝒕𝒆 𝑪𝒉𝒂𝒏𝒏𝒆𝒍✨', url='https://t.me/DevilServers'),
                 InlineKeyboardButton(
-                    'Movie Group', url='https://t.me/DevilMWorld')
+                    '✨𝑴𝒐𝒗𝒊𝒆 𝑮𝒓𝒐𝒖𝒑✨', url='https://t.me/DevilMWorld')
             ], [
-                InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('🔥𝑨𝒃𝒐𝒖𝒕🔥', callback_data='about')
             ]])
         )
     elif data == "about":
