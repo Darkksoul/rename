@@ -20,9 +20,9 @@ async def start(client, message):
     await db.add_user(client, message)
     button = InlineKeyboardMarkup([[
         InlineKeyboardButton(
-            '💞 ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ 💞​', url='https://t.me/Anime_X_Hunters'),
+            'Update Channel', url='https://t.me/DevilServers'),
         InlineKeyboardButton(
-            '👋 ᴀɴɪᴍᴇ ᴅɪꜱᴄᴜꜱꜱɪᴏɴ 👋​', url='https://t.me/Hunters_Discussion')
+            'Movie Group​', url='https://t.me/DevilMWorld')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
     ]])
@@ -63,9 +63,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '💞 ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ 💞', url='https://t.me/Anime_X_Hunters'),
+                    'Update Channel', url='https://t.me/DevilServers'),
                 InlineKeyboardButton(
-                    '👋 ᴀɴɪᴍᴇ ᴅɪꜱᴄᴜꜱꜱɪᴏɴ 👋​', url='https://t.me/Hunters_Discussion')
+                    'Movie Group', url='https://t.me/DevilMWorld')
             ], [
                 InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about')
             ]])
