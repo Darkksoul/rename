@@ -32,12 +32,12 @@ class Txt(object):
     # part of text configuration
     START_TXT = """<b> 𝑯𝒆𝒍𝒍𝒐 {} 👋,
 𝑻ʜɪ𝒔 𝑰𝒔 𝑨ɴ 𝑨ᴅᴠᴀɴᴄᴇᴅ 𝑨ɴᴅ 𝒀ᴇᴛ 𝑷ᴏᴡᴇʀꜰᴜʟ 𝑹ᴇɴᴀᴍᴇ 𝑩ᴏᴛ
-𝑻ʜɪ𝒔 𝑩ᴏᴛ 𝑾ᴀ𝒔 𝑪ʀᴇᴀᴛᴇᴅ 𝑩ʏ : @𝑫𝒆𝒗𝒊𝒍𝒔𝒆𝒓𝒗𝒆𝒓𝒔💞
+𝑻ʜɪ𝒔 𝑩ᴏᴛ 𝑾ᴀ𝒔 𝑪ʀᴇᴀᴛᴇᴅ 𝑩ʏ : @DevilServers 💞
 """
 
     ABOUT_TXT = """<b>┏━━━━━━━━━━━━━━━━⍟
 ┃🤖 ᴍy ɴᴀᴍᴇ : {}
-┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://DevilServers>𝗧𝗘𝗔𝗠 Devil</a>
+┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/DevilServers>𝗧𝗘𝗔𝗠 Devil</a>
 ┃☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/DevilServers>Devilservers</a>
 ┃📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ┃✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
