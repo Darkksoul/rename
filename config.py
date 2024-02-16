@@ -37,7 +37,7 @@ class Txt(object):
 
     ABOUT_TXT = """<b>┏━━━━━━━━━━━━━━━━⍟
 ┃🤖 ᴍy ɴᴀᴍᴇ : {}
-┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/https://DevilServers>𝗧𝗘𝗔𝗠 Devil</a>
+┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://DevilServers>𝗧𝗘𝗔𝗠 Devil</a>
 ┃☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/DevilServers>Devilservers</a>
 ┃📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ┃✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
