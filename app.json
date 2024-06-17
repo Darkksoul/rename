@@ -1,9 +1,9 @@
 {
-    "name": "Nozel's Modified",
+    "name": "Devil Modified",
     "description": "Telegram File Renamer Bot ",
-    "logo": "https://graph.org/file/97f76ffe8cbb26b4119e5.jpg",
+    "logo": "https://te.legra.ph/file/074c9372b3fad98f791ac.jpg",
     "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/Sahil0976/Premium-Rename",
+    "repository": "https://github.com/Darkksoul/rename",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
