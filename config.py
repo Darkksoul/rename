@@ -16,8 +16,8 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', "5090651635").split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_X_Hunters") 
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', "").split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     FLOOD = int(os.environ.get("FLOOD", '10'))
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
@@ -30,21 +30,19 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """<b>Hɪ {} 👋,
-Tʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
-Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oꜰ Yᴏᴜʀ Fɪʟᴇ
-Yᴏᴜ Cᴀɴ Aʟsᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ & Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ
-Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+    START_TXT = """<b> 𝑯𝒆𝒍𝒍𝒐 {} 👋,
+𝑻ʜɪ𝒔 𝑰𝒔 𝑨ɴ 𝑨ᴅᴠᴀɴᴄᴇᴅ 𝑨ɴᴅ 𝒀ᴇᴛ 𝑷ᴏᴡᴇʀꜰᴜʟ 𝑹ᴇɴᴀᴍᴇ 𝑩ᴏᴛ
+𝑻ʜɪ𝒔 𝑩ᴏᴛ 𝑾ᴀ𝒔 𝑪ʀᴇᴀᴛᴇᴅ 𝑩ʏ : @DevilServers 💞
 """
 
     ABOUT_TXT = """<b>┏━━━━━━━━━━━━━━━━⍟
 ┃🤖 ᴍy ɴᴀᴍᴇ : {}
-┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a>
-┃☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Anime_X_Hunters>Anime X Hunters</a>
+┃👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/DevilServers>𝗧𝗘𝗔𝗠 Devil</a>
+┃☃️ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/DevilServers>Devilservers</a>
 ┃📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ┃✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
 ┃💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-┃🌀 ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>
+┃🌀 ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://www.hostinger.com/>VPS</a>
 ┗━━━━━━━━━━━━━━⍟ """
 
 
